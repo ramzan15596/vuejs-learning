@@ -1,15 +1,26 @@
-span{
-  background: red;
-  display: inline-block;
-  padding:10px;
-  color: #fff;
-  margin: 10px 0;
+#bag{
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(images/punching-bag_1255490.jpg) center no-repeat;
+  background-size: 80%;
+}
+#bag.burst{
+  background: url(images/800px_COLOURBOX21100946.jpg) center no-repeat;
+  background-size: 80%;
+}
+#bag-health{
+  width: 200px;
+  border: 2px solid #000;
+  margin: 0 auto 20px auto;
 }
 
-.available span{
-  background: green;
+#bag-health div{
+  height: 20px;
+  background: crimson;
 }
-.nearby span:after{
-  content: "nearby";
-  margin-left: 10px;
-}
+
+  #controls{
+    width: 120px;
+    margin: 0 auto;
+  }
